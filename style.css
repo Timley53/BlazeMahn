@@ -1267,7 +1267,7 @@ form {
     align-self: center;
     width: 90%;
     font-size: medium;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
   .cloudblaze-img img {
     text-align: left;
@@ -1277,6 +1277,7 @@ form {
   .Visual-experience {
     width: 90%;
     font-size: 1.1rem;
+    padding-bottom: 6rem;
   }
   .section-p-1 {
     padding-top: 2rem;
