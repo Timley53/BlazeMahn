@@ -1186,7 +1186,7 @@ video {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 14rem;
+    padding-top: 18rem;
     align-items: center;
     /* border: 1px solid red; */
   }
@@ -1195,6 +1195,7 @@ video {
     align-self: center;
     width: 90%;
     font-size: medium;
+    background-color: aquamarine;
   }
   .cloudblaze-img img {
     text-align: left;
