@@ -1186,12 +1186,13 @@ video {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 11rem;
+    padding-top: 14rem;
     align-items: center;
     /* border: 1px solid red; */
   }
   .cloudblaze-img {
     text-align: center;
+    align-self: center;
     width: 90%;
     font-size: medium;
   }
