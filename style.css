@@ -43,6 +43,7 @@ nav {
   width: 100%;
   color: white;
   position: fixed;
+  top: 0;
   height: 80px;
   align-items: center;
   justify-content: space-between;
@@ -479,6 +480,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 3rem 0;
+  margin-top: 4rem;
   background-color: aliceblue;
   /* border: 1px solid red; */
 }
@@ -715,6 +717,74 @@ video {
 }
 .why-pics img {
   width: 85%;
+}
+
+/* 
+contact page
+*/
+.contact-container {
+  width: 100%;
+}
+.contact-heaader {
+  width: 100%;
+  background-color: rgb(152, 222, 152);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+form {
+  display: flex;
+  width: 80%;
+}
+.text-boxes {
+  width: 50%;
+  text-align: center;
+  /* border: 1px solid yellow; */
+}
+.text-boxes input {
+  margin: 0.6rem;
+  width: 60%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+}
+.drop-comments {
+  width: 50%;
+  /* border: 1px solid yellow; */
+  text-align: center;
+}
+
+.drop-comments select {
+  width: 80%;
+  padding: 1rem;
+  margin: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+}
+.drop-comments input {
+  margin: 0.6rem;
+  width: 70%;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+}
+.submit {
+  padding: 0.7rem 4rem;
+  font-size: larger;
+  color: white;
+  margin: 1rem;
+  background-color: rgb(225, 91, 91);
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+.privacy {
+  width: 60%;
+  text-align: center;
 }
 /* 
 
@@ -1188,6 +1258,7 @@ video {
     flex-direction: column;
     padding-top: 18rem;
     align-items: center;
+
     /* border: 1px solid red; */
   }
   .cloudblaze-img {
@@ -1449,6 +1520,82 @@ video {
     width: 95%;
   }
 
+  /* 
+contact page
+*/
+  .contact-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-heaader {
+    width: 100%;
+    background-color: rgb(152, 222, 152);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .text-boxes {
+    width: 90%;
+    text-align: center;
+    /* border: 1px solid yellow; */
+  }
+  .text-boxes input {
+    margin: 0.6rem;
+    width: 90%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+  }
+  p {
+    width: 80%;
+    text-align: center;
+  }
+  .drop-comments {
+    width: 90%;
+    /* border: 1px solid yellow; */
+    text-align: center;
+  }
+
+  .drop-comments select {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+  }
+  .drop-comments input {
+    margin: 0.6rem;
+    width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+  }
+  .submit {
+    padding: 0.7rem 4rem;
+    font-size: larger;
+    color: white;
+    margin: 1rem;
+    background-color: rgb(225, 91, 91);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  .privacy {
+    width: 60%;
+    text-align: center;
+  }
   /* 
    */
 }
