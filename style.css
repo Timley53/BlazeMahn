@@ -760,6 +760,7 @@ form {
 .drop-comments select {
   width: 80%;
   padding: 1rem;
+  font-size: 1rem;
   margin: 0.6rem;
   border-radius: 0.5rem;
   border: 1px solid white;
