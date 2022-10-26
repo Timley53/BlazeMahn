@@ -1558,7 +1558,7 @@ contact page
     border-radius: 0.5rem;
     border: 1px solid white;
   }
-  p {
+  .contact-heaader p {
     width: 80%;
     text-align: center;
   }
